@@ -14,3 +14,7 @@ User.find_by_email('a@a.com').update_attribute(:password,'123123123')
 ### 2020-10-27
 
 1. 做 commit 时， commit 以需求编号作为前缀，如： `GDAND-772`
+
+### 2020-11-04
+
+1. 测试数据库地址：mysql2://greendealqa:z4cEDD13GdDpLqGRPEtP@greendeal-test-db-instance.c6wqcb8wmf0v.ap-southeast-2.rds.amazonaws.com:3306/ebiz_test?pool=64
